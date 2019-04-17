@@ -1,0 +1,61 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/market/market",
+    "pages/trade/trade",
+    "pages/c2c/c2c",
+    "pages/chat/chat",
+    "pages/wallet/wallet"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1AAD16",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "行情",
+        "iconPath":"/images/line-chart.png",
+        "selectedIconPath":"/images/line-chart1.png"
+      },
+      {
+        "pagePath": "pages/trade/trade",
+        "text": "交易",
+          "iconPath": "/images/line-chart.png",
+          "selectedIconPath": "/images/line-chart1.png"
+      },
+      {
+        "pagePath": "pages/c2c/c2c",
+        "text": "C2C",
+          "iconPath": "/images/user.png",
+          "selectedIconPath": "/images/user1.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "聊天室",
+          "iconPath": "/images/user.png",
+          "selectedIconPath": "/images/user1.png"
+      },
+      {
+        "pagePath": "pages/wallet/wallet",
+        "text": "钱包",
+          "iconPath": "/images/user.png",
+          "selectedIconPath": "/images/user1.png"
+      }
+    ]
+  }
+}
